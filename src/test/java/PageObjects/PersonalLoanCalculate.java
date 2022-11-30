@@ -3,6 +3,8 @@ package PageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 public class PersonalLoanCalculate {
@@ -39,6 +41,7 @@ public class PersonalLoanCalculate {
         return this;
     }
     public PersonalLoanCalculate amount(){
+        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(amountDropdown_xpath));
         amountDropdown_xpath.click();
         return this;
 
