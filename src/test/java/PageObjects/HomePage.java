@@ -9,13 +9,13 @@ public class HomePage {
 
     WebDriver driver = null;
 
-    @FindBy(xpath = "//small[contains(.,'GET QUICK ACCESS TO:')]")
+    @FindBy(xpath = "//strong[contains(.,'Bank and Borrow')]")
     WebElement LandingPage_xpath;
 
     public HomePage(WebDriver driver){ this.driver=driver; }
 
     public void PageVerify(){
-        Assert.assertEquals(LandingPage_xpath.getText(), "GET QUICK ACCESS TO:");
+        Assert.assertEquals(LandingPage_xpath.getText(), "Bank and Borrow");
     }
 
 }

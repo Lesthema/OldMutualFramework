@@ -11,13 +11,13 @@ public class PersonalLoanCalculate {
     @FindBy(xpath = "//span[@class='om-button-text'][contains(.,'CALCULATE')]")
     WebElement calculate_xpath;
 
-    @FindBy(xpath = "(//span[@class='selected-value-container'])[1]")
+    @FindBy(xpath = "(//span[contains(@class,'selected-value-container')])[1]")
     WebElement amountDropdown_xpath;
 
     @FindBy(xpath = "//li[@id='R50000']")
     WebElement amount_xpath;
 
-    @FindBy(xpath = "//button[@class='theme-default secondary-large']")
+    @FindBy(xpath = "//button[@class='theme-default secondary-large'][contains(.,'Next')]")
     WebElement next_xpath;
 
     @FindBy(xpath = "(//span[@class='selected-value-container'])[1]")

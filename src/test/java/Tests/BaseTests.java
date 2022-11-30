@@ -4,10 +4,8 @@ import PageObjects.HomePage;
 import PageObjects.PersonalLoanCalculate;
 import PageObjects.Solutions;
 import Utils.BrowserSetup;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
+import Utils.TakeScreenShot;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.support.PageFactory;
 
 public class BaseTests {
@@ -17,7 +15,6 @@ public class BaseTests {
     HomePage homePage = PageFactory.initElements(driver, HomePage.class);
     Solutions solutions = PageFactory.initElements(driver, Solutions.class);
     PersonalLoanCalculate personalLoanCalculate = PageFactory.initElements(driver, PersonalLoanCalculate.class);
-    TakesScreenshot takeSnapshot = new TakeScreenshot();
+    TakeScreenShot takeSnapshot = new TakeScreenShot();
         }
-    }
-}
+
