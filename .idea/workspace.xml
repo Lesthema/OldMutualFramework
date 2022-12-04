@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e23b0a2-94a5-4e28-95d3-f56a06118355" name="Changes" comment="Screenshot added to framework">
-      <change afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExtentReport/ExtentReportManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ExtentReport/Listeners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/PersonalLoanCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/PersonalLoanCalculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19 (2)",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
   }
 }]]></component>
   <component name="RecentsManager">
