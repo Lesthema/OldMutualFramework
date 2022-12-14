@@ -32,6 +32,10 @@ public class OmPersonalLoan extends BaseTests {
     public void Calculate() throws IOException, InterruptedException {
         personalLoanCalculate
                 .calculate()
+                .TabSwitch(driver);
+
+        personalLoanCalculate
+                .validatepage()
                 .amount()
                 .selectAmount();
         Thread.sleep(4000);

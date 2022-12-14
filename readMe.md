@@ -12,3 +12,9 @@ Before we can go through the step-by-step instructions, you will have to downloa
 4. Selenium Webdriver ( SeleniumHQ page)
 
 ## How to execute
+* The tests can be executed in one of 4 ways, from the maven commandline, using OmPersonalLoan main class, 
+IDE or from TestNG xml file.
+* Reports can be found the Reports directory under Project Structure
+* Screenshots can be found in Screenshots directory under Project Structure
+
+-------

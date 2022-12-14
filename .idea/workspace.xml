@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e23b0a2-94a5-4e28-95d3-f56a06118355" name="Changes" comment="Screenshot added to framework">
+    <list default="true" id="1e23b0a2-94a5-4e28-95d3-f56a06118355" name="Changes" comment="adding ReadMe instructions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/readMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/BrowserSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/BrowserSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/PersonalLoanCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/PersonalLoanCalculate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/OmPersonalLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/OmPersonalLoan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-19 (2)",
-    "settings.editor.selected.configurable": "project.propVCSSupport.Mappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-19 (2)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.Mappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Automation\OldMutualFramework\src\test\PageObjects" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Automation/OldMutualFramework/testng.xml">
+  <component name="RunManager" selected="TestNG.OmPersonalLoan">
     <configuration name="C:/Automation/OldMutualFramework/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OldMutualFramework" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -77,10 +79,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OmPersonalLoan.solutionsValidation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OldMutualFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.OmPersonalLoan" />
+      <option name="METHOD_NAME" value="solutionsValidation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Automation/OldMutualFramework/testng.xml" />
         <item itemvalue="TestNG.OmPersonalLoan" />
+        <item itemvalue="TestNG.OmPersonalLoan.solutionsValidation" />
+        <item itemvalue="TestNG.C:/Automation/OldMutualFramework/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669836573624</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding ReadMe instructions">
+      <created>1670154071770</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670154071770</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project first commit" />
     <MESSAGE value="Screenshot added to framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Screenshot added to framework" />
+    <MESSAGE value="adding ReadMe instructions" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding ReadMe instructions" />
   </component>
 </project>

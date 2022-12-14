@@ -28,6 +28,8 @@ public class BrowserSetup {
         return driver;
     }
 
+
+
     public static void teardown(){driver.quit();}
 
     }

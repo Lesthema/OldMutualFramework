@@ -1,5 +1,7 @@
 package PageObjects;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,7 +15,10 @@ public class PersonalLoanCalculate {
     @FindBy(xpath = "//span[@class='om-button-text'][contains(.,'CALCULATE')]")
     WebElement calculate_xpath;
 
-    @FindBy(xpath = "(//span[contains(@class,'selected-value-container')])[1]")
+    @FindBy(xpath = "//a[contains(.,'personal loan calculator')]")
+    WebElement calculatorLabel_xpath;
+
+    @FindBy(xpath = "//use[contains(@href,'down')]")
     WebElement amountDropdown_xpath;
 
     @FindBy(xpath = "//li[@id='R50000']")
@@ -34,45 +39,61 @@ public class PersonalLoanCalculate {
     @FindBy(xpath = "//strong[contains(.,'R1 656.43 - R1 810.05')]")
     WebElement monthlyRepayment_xpath;
 
-    public PersonalLoanCalculate (WebDriver driver){this.driver = driver;}
+    public PersonalLoanCalculate(WebDriver driver) {
+        this.driver = driver;
+    }
 
-    public PersonalLoanCalculate calculate(){
+    public PersonalLoanCalculate calculate() {
         calculate_xpath.click();
         return this;
     }
-    public PersonalLoanCalculate amount(){
-        new WebDriverWait(driver,5).until(ExpectedConditions.visibilityOf(amountDropdown_xpath));
+    public void TabSwitch(WebDriver driver) {
+    driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL + "t");
+    }
+
+    public PersonalLoanCalculate validatepage(){
+        Assert.assertEquals(calculatorLabel_xpath.getText(),"personal loan calculator");
+        return this;
+    }
+
+    public PersonalLoanCalculate amount() {
+        new WebDriverWait(driver, 40).until(ExpectedConditions.visibilityOf(amountDropdown_xpath));
         amountDropdown_xpath.click();
         return this;
 
     }
-    public PersonalLoanCalculate selectAmount(){
+
+    public PersonalLoanCalculate selectAmount() {
         amount_xpath.click();
         return this;
     }
-    public PersonalLoanCalculate nextButton(){
+
+    public PersonalLoanCalculate nextButton() {
         next_xpath.click();
         return this;
     }
-    public PersonalLoanCalculate monthsDropdown(){
+
+    public PersonalLoanCalculate monthsDropdown() {
         monthsDropdown_xpath.click();
         return this;
     }
-    public PersonalLoanCalculate selectMonths(){
+
+    public PersonalLoanCalculate selectMonths() {
         months_xpath.click();
         return this;
 
     }
-    public PersonalLoanCalculate calculateButton(){
+
+    public PersonalLoanCalculate calculateButton() {
         calculateButton_xpath.click();
         return this;
 
     }
-    public PersonalLoanCalculate monthlyRepayment(){
-        Assert.assertEquals(monthlyRepayment_xpath.getText(),"R1 656.43 - R1 810.05");
+
+    public PersonalLoanCalculate monthlyRepayment() {
+        Assert.assertEquals(monthlyRepayment_xpath.getText(), "R1 656.43 - R1 810.05");
         return this;
 
     }
-
 
 }
