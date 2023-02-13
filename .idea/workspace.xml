@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e23b0a2-94a5-4e28-95d3-f56a06118355" name="Changes" comment="adding ReadMe instructions">
+    <list default="true" id="1e23b0a2-94a5-4e28-95d3-f56a06118355" name="Changes" comment="adding ReadMe instructions and tabswitch">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Utils/BrowserSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utils/BrowserSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PageObjects/PersonalLoanCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PageObjects/PersonalLoanCalculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/OmPersonalLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/OmPersonalLoan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670154071770</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding ReadMe instructions and tabswitch">
+      <created>1671048863223</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671048863223</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +157,7 @@
     <MESSAGE value="Project first commit" />
     <MESSAGE value="Screenshot added to framework" />
     <MESSAGE value="adding ReadMe instructions" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding ReadMe instructions" />
+    <MESSAGE value="adding ReadMe instructions and tabswitch" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding ReadMe instructions and tabswitch" />
   </component>
 </project>
